@@ -182,6 +182,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% comment %} 
  SURVEYS - DO NOT EDIT SURVEY LINKS 
 {% endcomment %}
+{% comment %}
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 {% if site.carpentry == "swc" %} 
@@ -196,7 +197,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endif %}
 
 <hr/>
-
+{% endcomment %}
 
 {% comment %}
   SCHEDULE
@@ -387,6 +388,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   </div>
 </div> {% comment %} End of 'shell' section. {% endcomment %}
 
+{% comment %}
 <div id="git"> {% comment %} Start of 'Git' section. GitHub browser compatability
            is given at https://help.github.com/articles/supported-browsers/{% endcomment %}
   <h3>Git</h3>
@@ -766,4 +768,5 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     </li>
   </ol>
 </div>
+{% endcomment %}
 {% endcomment %}
